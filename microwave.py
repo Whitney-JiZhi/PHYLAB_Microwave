@@ -26,14 +26,14 @@ import os
 os.chdir('# put the working directory here #')  # put the working directory path inside the quotation mark
 
 
-f_name = '4.3 data'
+f_name = '4.3 data' # use the name of the file you want to read
 
 data = pd.read_excel(f'{f_name}.xlsx')
 # data = data.rename(columns={data.columns[3]: "I(A)", data.columns[5]: "V(V)"}, errors="raise")
 print(data)
 
 
-f_name2 = 'attenuation data'
+f_name2 = 'attenuation data'    # use the name of the file you want to read
 
 data2 = pd.read_excel(f'{f_name2}.xlsx')
 # data = data.rename(columns={data.columns[3]: "I(A)", data.columns[5]: "V(V)"}, errors="raise")
