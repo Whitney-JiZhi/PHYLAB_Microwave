@@ -23,7 +23,7 @@ from IPython.display import display, HTML
 #     return E, p_max/100*E
 
 import os
-os.chdir('/content/drive/MyDrive/Colab Notebooks/Lab Data/')
+os.chdir('# put the working directory here #')  # put the working directory path inside the quotation mark
 
 
 f_name = '4.3 data'
